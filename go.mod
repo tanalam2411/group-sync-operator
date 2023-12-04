@@ -3,7 +3,7 @@ module github.com/redhat-cop/group-sync-operator
 go 1.18
 
 require (
-	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.4.0
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.5.0
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.1.0
 	github.com/Nerzal/gocloak/v11 v11.2.0
 	github.com/go-logr/logr v1.2.3
@@ -11,9 +11,9 @@ require (
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/microsoft/kiota-authentication-azure-go v0.6.0
-	github.com/microsoft/kiota-http-go v0.16.1
+	github.com/microsoft/kiota-http-go v0.17.0
 	github.com/microsoftgraph/msgraph-sdk-go v0.61.0
-	github.com/microsoftgraph/msgraph-sdk-go-core v0.36.0
+	github.com/microsoftgraph/msgraph-sdk-go-core v0.36.2
 	github.com/okta/okta-sdk-golang/v2 v2.14.0
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/gomega v1.18.1
@@ -26,17 +26,18 @@ require (
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/shurcooL/githubv4 v0.0.0-20220520033151-0b4e3294ff00
 	github.com/xanzy/go-gitlab v0.73.1
-	golang.org/x/text v0.7.0
+	golang.org/x/text v0.8.0
 	gopkg.in/ldap.v2 v2.5.1
 	k8s.io/api v0.24.2
 	k8s.io/apimachinery v0.24.2
 	k8s.io/client-go v0.24.2
+	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 	sigs.k8s.io/controller-runtime v0.12.2
 )
 
 require (
 	cloud.google.com/go v0.81.0 // indirect
-	github.com/Azure/azure-sdk-for-go/sdk/internal v1.2.0 // indirect
+	github.com/Azure/azure-sdk-for-go/sdk/internal v1.3.0 // indirect
 	github.com/AzureAD/microsoft-authentication-library-for-go v0.5.1 // indirect
 	github.com/BurntSushi/toml v1.1.0 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
@@ -81,9 +82,9 @@ require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369 // indirect
-	github.com/microsoft/kiota-abstractions-go v0.19.0 // indirect
+	github.com/microsoft/kiota-abstractions-go v0.20.0 // indirect
 	github.com/microsoft/kiota-serialization-form-go v0.9.1 // indirect
-	github.com/microsoft/kiota-serialization-json-go v0.9.1 // indirect
+	github.com/microsoft/kiota-serialization-json-go v0.9.3 // indirect
 	github.com/microsoft/kiota-serialization-text-go v0.7.0 // indirect
 	github.com/mitchellh/copystructure v1.0.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.0 // indirect
@@ -114,10 +115,10 @@ require (
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.19.1 // indirect
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e // indirect
-	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/net v0.8.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20220722155238-128564f6959c // indirect
-	golang.org/x/sys v0.5.0 // indirect
-	golang.org/x/term v0.5.0 // indirect
+	golang.org/x/sys v0.6.0 // indirect
+	golang.org/x/term v0.6.0 // indirect
 	golang.org/x/time v0.0.0-20220722155302-e5dcc9cfc0b9 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.2.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
@@ -133,7 +134,6 @@ require (
 	k8s.io/klog/v2 v2.60.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42 // indirect
 	k8s.io/kubectl v0.24.0 // indirect
-	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9 // indirect
 	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
