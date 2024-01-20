@@ -24,13 +24,14 @@ require (
 	github.com/redhat-cop/operator-utils v1.3.4
 	github.com/robfig/cron v1.2.0
 	github.com/robfig/cron/v3 v3.0.1
-	github.com/shurcooL/githubv4 v0.0.0-20220520033151-0b4e3294ff00
+	github.com/shurcooL/githubv4 v0.0.0-20240120211514-18a1ae0e79dc
 	github.com/xanzy/go-gitlab v0.73.1
 	golang.org/x/text v0.7.0
 	gopkg.in/ldap.v2 v2.5.1
 	k8s.io/api v0.24.2
 	k8s.io/apimachinery v0.24.2
 	k8s.io/client-go v0.24.2
+	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 	sigs.k8s.io/controller-runtime v0.12.2
 )
 
@@ -133,7 +134,6 @@ require (
 	k8s.io/klog/v2 v2.60.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42 // indirect
 	k8s.io/kubectl v0.24.0 // indirect
-	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9 // indirect
 	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
